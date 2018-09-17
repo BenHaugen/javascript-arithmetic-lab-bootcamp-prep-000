@@ -15,12 +15,11 @@ return a / b
 }
 
 function inc(n) {
-  sum += n;
-  return sum
+n += n
 }
 
 function dec(n) {
-  return n--
+  n -= n
 }
 
 function makeInt(n) {
