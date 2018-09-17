@@ -15,7 +15,8 @@ return a / b
 }
 
 function inc(n) {
-return n++;
+  sum += n;
+  return sum
 }
 
 function dec(n) {
